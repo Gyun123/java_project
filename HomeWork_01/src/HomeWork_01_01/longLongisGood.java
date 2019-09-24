@@ -37,16 +37,28 @@ public class longLongisGood {
 				b.mb_data[i]=s[j];
 				j++;
 			}
+		}else if(this.mb_data.length<b.mb_data.length){//这是（a<b）的情况
+			c = new String[b.mb_data.length];
+			byte[] s = this.mb_data;//用于装载this的内容
+			this.mb_data=new byte[b.mb_data.length];//重新定义this的大小
+			for(int i=b.mb_data.length-s.length;i<b.mb_data.length;i++)//用s对this的内容进行黏贴
+			{
+				int j=0;
+				this.mb_data[i]=s[j];
+				j++;
+			}
+		}
+		
 			
-				for(int j=b.mb_data.length-1;j>=0;j--)//此时两者长度相同，实际也可用当前（即this）作为开始，这里选择从后往前进行加法运算
+				for(int j=this.mb_data.length-1;j>=0;j--)//此时两者长度相同，实际也可用当前（即this）作为开始，这里选择从后往前进行加法运算
 				{
-					if(b.mb_data[j]+this.mb_data[j]>9)//当 当前数字 相加后>9，则当前数字-10后保留，并将asd这个判断用int数据变更为1
+					if(this.mb_data[j]+b.mb_data[j]>9)//当 当前数字 相加后>9，则当前数字-10后保留，并将asd这个判断用int数据变更为1
 					{
 						c[j]=String.valueOf(b.mb_data[j]+this.mb_data[j]-10);
 						asd=1;
 						
 					}
-					else{//若当前数字相加没有>9，则进行以下步骤
+					//若当前数字相加没有>9，则进行以下步骤
 						if(asd==1)//判断为1，可知比自身前一位的两个数字相加>9，则自身在相加后要+1
 						{
 							if(b.mb_data[j]+this.mb_data[j]+1>9) //若自身相加后，再+1，>9，则保持asd判断数据为1，并且自身相加后-9保留（因为+1才>9）
@@ -66,12 +78,12 @@ public class longLongisGood {
 						}
 					}
 					
-				}
+				
 				
 
 				
 				
-		}
+		
 		String a = new String();
 		for(int i = 0;i<c.length;i++)//使用新创建的String数据 a 将 保存数据的String 数组 c 串起来，进行返回。
 		{
@@ -86,8 +98,8 @@ public class longLongisGood {
 	public  static void main(String[] args)
 	{
 		
-		longLongisGood a = new longLongisGood("1234");
-		longLongisGood b = new longLongisGood("277");
+		longLongisGood a = new longLongisGood("456");
+		longLongisGood b = new longLongisGood("89");
 		
 		
 		String yes = new String(a.mb_data);
