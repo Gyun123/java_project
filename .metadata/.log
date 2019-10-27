@@ -6456,3 +6456,178 @@ java.nio.file.AccessDeniedException: C:\Program Files\Git\mingw64\etc\.probe-87a
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:333)
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:300)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-10-26 20:16:45.658 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-10-26 20:16:52.075
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-26 20:17:10.879
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aa351'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-26 20:17:11.609
+!MESSAGE C:\Program Files\Git\mingw64\etc\.probe-817d4e5c-91ef-46b5-8f43-8b4049b1de57
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Program Files\Git\mingw64\etc\.probe-817d4e5c-91ef-46b5-8f43-8b4049b1de57
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:373)
+	at java.base/java.nio.file.Files.createFile(Files.java:650)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.<init>(FS.java:234)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.getFsTimestampResolution(FS.java:211)
+	at org.eclipse.jgit.util.FS.getFsTimerResolution(FS.java:321)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.<init>(FileSnapshot.java:186)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.save(FileSnapshot.java:122)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.load(FileBasedConfig.java:156)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.loadSystemConfig(FileRepository.java:245)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.<init>(FileRepository.java:203)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.build(FileRepositoryBuilder.java:88)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.create(FileRepositoryBuilder.java:108)
+	at org.eclipse.egit.core.RepositoryCache.lookupRepository(RepositoryCache.java:58)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:693)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:651)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:634)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:220)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:340)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:712)
+	at org.eclipse.egit.ui.internal.resources.ResourceStateFactory.getIndexDiffDataOrNull(ResourceStateFactory.java:103)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:224)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:333)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-10-27 09:33:07.847 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-10-27 09:33:14.057
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-27 09:33:35.290
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aa351'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-27 09:33:36.231
+!MESSAGE C:\Program Files\Git\mingw64\etc\.probe-6983984e-b096-421a-bdfd-bd918164fb5e
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Program Files\Git\mingw64\etc\.probe-6983984e-b096-421a-bdfd-bd918164fb5e
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:373)
+	at java.base/java.nio.file.Files.createFile(Files.java:650)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.<init>(FS.java:234)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.getFsTimestampResolution(FS.java:211)
+	at org.eclipse.jgit.util.FS.getFsTimerResolution(FS.java:321)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.<init>(FileSnapshot.java:186)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.save(FileSnapshot.java:122)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.load(FileBasedConfig.java:156)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.loadSystemConfig(FileRepository.java:245)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.<init>(FileRepository.java:203)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.build(FileRepositoryBuilder.java:88)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.create(FileRepositoryBuilder.java:108)
+	at org.eclipse.egit.core.RepositoryCache.lookupRepository(RepositoryCache.java:58)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:693)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:651)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:634)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:220)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:335)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:712)
+	at org.eclipse.egit.ui.internal.resources.ResourceStateFactory.getIndexDiffDataOrNull(ResourceStateFactory.java:103)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:224)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:333)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-10-27 10:47:07.262 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-10-27 10:47:10.992
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-27 10:47:28.465
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aa351'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-27 10:47:29.170
+!MESSAGE C:\Program Files\Git\mingw64\etc\.probe-5d7bff17-7c7d-44b8-a6fb-cb92a8c3a884
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Program Files\Git\mingw64\etc\.probe-5d7bff17-7c7d-44b8-a6fb-cb92a8c3a884
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:373)
+	at java.base/java.nio.file.Files.createFile(Files.java:650)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.<init>(FS.java:234)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.getFsTimestampResolution(FS.java:211)
+	at org.eclipse.jgit.util.FS.getFsTimerResolution(FS.java:321)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.<init>(FileSnapshot.java:186)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.save(FileSnapshot.java:122)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.load(FileBasedConfig.java:156)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.loadSystemConfig(FileRepository.java:245)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.<init>(FileRepository.java:203)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.build(FileRepositoryBuilder.java:88)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.create(FileRepositoryBuilder.java:108)
+	at org.eclipse.egit.core.RepositoryCache.lookupRepository(RepositoryCache.java:58)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:693)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:651)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:634)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:220)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:335)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:712)
+	at org.eclipse.egit.ui.internal.resources.ResourceStateFactory.getIndexDiffDataOrNull(ResourceStateFactory.java:103)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:224)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:333)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
