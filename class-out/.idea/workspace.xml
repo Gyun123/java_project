@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc39039-f6ad-4e71-8693-121ef17e6a32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/lib/commons-io-2.6-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/lib/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/src/cI_01/COMMONS_IO_000001.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/anima02.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/anima03.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/anima1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/lib/commons-io-2.6-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/lib/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/src/StartThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/src/TDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/src/WebDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/class-out/.idea/javasss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/.idea/javasss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/class-out/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/java_project" />
@@ -40,7 +30,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,6 +76,11 @@
       <updated>1569388742863</updated>
       <workItem from="1569388744017" duration="170000" />
       <workItem from="1572531975372" duration="2133000" />
+      <workItem from="1572534130322" duration="450000" />
+      <workItem from="1572534597784" duration="234000" />
+      <workItem from="1572534848322" duration="776000" />
+      <workItem from="1572535652265" duration="23000" />
+      <workItem from="1572535691039" duration="1021000" />
     </task>
     <servers />
   </component>
