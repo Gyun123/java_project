@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bc39039-f6ad-4e71-8693-121ef17e6a32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/lib/commons-io-2.6-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/lib/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/COMMONS_IO_00/src/cI_01/COMMONS_IO_000001.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/anima02.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/anima03.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/anima1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/lib/commons-io-2.6-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/lib/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/src/StartThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/src/TDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/Java_Thread_01/src/WebDownloader.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/java_project" />
+  </component>
+  <component name="ProjectId" id="1RJcfWAWNc4LY6z3nsEMgGipxtR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../activate-power-mode_v0.1.8.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="longLongisGood" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_01_01.longLongisGood" />
+      <module name="javasss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_01_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.longLongisGood" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bc39039-f6ad-4e71-8693-121ef17e6a32" name="Default Changelist" comment="" />
+      <created>1569388742863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569388742863</updated>
+      <workItem from="1569388744017" duration="170000" />
+      <workItem from="1572531975372" duration="2133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
