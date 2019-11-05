@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc39039-f6ad-4e71-8693-121ef17e6a32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java_project/class-out/.idea/javasss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/.idea/javasss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/class-out/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_project/class-out/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/class-out/lAyout/YouAreSick.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/lAyout/YouAreSick.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.printing">
     <configuration name="longLongisGood" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork_01_01.longLongisGood" />
       <module name="javasss" />
@@ -58,8 +59,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="printing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_02.printing" />
+      <module name="javasss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.printing" />
         <item itemvalue="Application.longLongisGood" />
       </list>
     </recent_temporary>
@@ -80,7 +95,15 @@
       <workItem from="1572534597784" duration="234000" />
       <workItem from="1572534848322" duration="776000" />
       <workItem from="1572535652265" duration="23000" />
-      <workItem from="1572535691039" duration="1021000" />
+      <workItem from="1572535691039" duration="1172000" />
+      <workItem from="1572619454908" duration="1127000" />
+      <workItem from="1572620598475" duration="573000" />
+      <workItem from="1572674759059" duration="211000" />
+      <workItem from="1572675019743" duration="5046000" />
+      <workItem from="1572744613860" duration="2096000" />
+      <workItem from="1572863504665" duration="3069000" />
+      <workItem from="1572937584411" duration="1817000" />
+      <workItem from="1572952526882" duration="599000" />
     </task>
     <servers />
   </component>
