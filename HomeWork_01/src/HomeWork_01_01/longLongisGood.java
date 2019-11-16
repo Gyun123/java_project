@@ -558,8 +558,8 @@ public class longLongisGood {
 	public  static void main(String[] args)
 	{
 		
-		longLongisGood a = new longLongisGood("132");
-		longLongisGood b = new longLongisGood("12");
+		longLongisGood a = new longLongisGood("1322222222");
+		longLongisGood b = new longLongisGood("121");
 		//进行加减乘除操作，change就是mb.data数据变为String数据的操作。
 			System.out.println((a.ds(b)).change());
 			System.out.println((a.add(b)).change());

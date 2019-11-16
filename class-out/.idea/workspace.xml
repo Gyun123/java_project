@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc39039-f6ad-4e71-8693-121ef17e6a32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java_project/HomeWork_01/src/HomeWork_01_01/菜单.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project/Normal_01/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/HomeWork_01/src/HomeWork_01_01/longLongisGood.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/HomeWork_01/src/HomeWork_01_01/longLongisGood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_project/class-out/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_project/class-out/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project/class-out/lAyout/YouAreSick.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/lAyout/YouAreSick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/class-out/HomeWork_02/printing.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/HomeWork_02/printing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project/class-out/HomeWork_02/printst.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_project/class-out/HomeWork_02/printst.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +40,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,7 +54,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.printing">
+  <component name="RunManager" selected="Application.longLongisGood">
+    <configuration name="B37 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B37" />
+      <module name="javasss" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B类.B37" />
+      <module name="javasss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="B类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WuJiaoJing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_project.HomeWork_01.src.HomeWork_01_01.WuJiaoJing" />
+      <module name="javasss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_project.HomeWork_01.src.HomeWork_01_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="longLongisGood" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork_01_01.longLongisGood" />
       <module name="javasss" />
@@ -74,8 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.printing" />
         <item itemvalue="Application.longLongisGood" />
+        <item itemvalue="Application.printing" />
+        <item itemvalue="Application.B37 (1)" />
+        <item itemvalue="Application.B37" />
+        <item itemvalue="Application.WuJiaoJing" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +148,16 @@
       <workItem from="1572744613860" duration="2096000" />
       <workItem from="1572863504665" duration="3069000" />
       <workItem from="1572937584411" duration="1817000" />
-      <workItem from="1572952526882" duration="599000" />
+      <workItem from="1572952526882" duration="2249000" />
+      <workItem from="1572955941150" duration="317000" />
+      <workItem from="1573044419857" duration="1908000" />
+      <workItem from="1573450110378" duration="1187000" />
+      <workItem from="1573565075574" duration="482000" />
+      <workItem from="1573567932816" duration="932000" />
+      <workItem from="1573631033538" duration="7712000" />
+      <workItem from="1573649641037" duration="16486000" />
+      <workItem from="1573690893873" duration="4726000" />
+      <workItem from="1573901462520" duration="273000" />
     </task>
     <servers />
   </component>
